@@ -6,8 +6,7 @@ requirejs.config({
 require(['jquery'],function($){
   $(function(){
     require(['function'],function(Lunbotu){
-          var lunbo = new Lunbotu();
-          console.log(lunbo);
+          var $lunbo = new Lunbotu();      
     })         
 
   });
